@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975908732B05716F0055A240 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975908722B05716F0055A240 /* CoreFoundation.framework */; };
+		975908752B0571760055A240 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975908742B0571760055A240 /* GLUT.framework */; };
+		975908772B05717D0055A240 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975908762B05717D0055A240 /* GLKit.framework */; };
+		975908792B0571860055A240 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975908782B0571860055A240 /* OpenGL.framework */; };
+		9759087B2B0571A70055A240 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759087A2B0571A70055A240 /* libglfw.3.3.dylib */; };
+		9759087D2B0571BF0055A240 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759087C2B0571BF0055A240 /* libGLEW.2.2.0.dylib */; };
+		975908832B0573320055A240 /* Zeppelin3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9759087F2B0573310055A240 /* Zeppelin3D.cpp */; };
+		975908842B0573320055A240 /* QuadMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 975908802B0573310055A240 /* QuadMesh.cpp */; };
+		97618F442B1C393A005F0B13 /* SimplexNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97618F422B1C393A005F0B13 /* SimplexNoise.cpp */; };
+		97E9A9EB2B6F2314001BE0C8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E9A9EA2B6F2314001BE0C8 /* OpenAL.framework */; };
+		97E9A9FA2B6F6A70001BE0C8 /* libopenal.1.23.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E9A9F02B6F6747001BE0C8 /* libopenal.1.23.1.dylib */; };
+		97E9A9FC2B6F6F3D001BE0C8 /* libsndfile.1.0.37.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E9A9FB2B6F6F3D001BE0C8 /* libsndfile.1.0.37.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		975908652B0571320055A240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		975908672B0571320055A240 /* Zeppelin Battle Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Zeppelin Battle Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975908722B05716F0055A240 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		975908742B0571760055A240 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		975908762B05717D0055A240 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		975908782B0571860055A240 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		9759087A2B0571A70055A240 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../include_lib/glfw/3.3.8/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		9759087C2B0571BF0055A240 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../../include_lib/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
+		9759087E2B0573310055A240 /* QuadMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadMesh.h; sourceTree = "<group>"; };
+		9759087F2B0573310055A240 /* Zeppelin3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zeppelin3D.cpp; sourceTree = "<group>"; };
+		975908802B0573310055A240 /* QuadMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadMesh.cpp; sourceTree = "<group>"; };
+		975908812B0573320055A240 /* windows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windows.h; sourceTree = "<group>"; };
+		975908822B0573320055A240 /* VECTOR3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VECTOR3D.h; sourceTree = "<group>"; };
+		975908862B0578420055A240 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		97618F422B1C393A005F0B13 /* SimplexNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimplexNoise.cpp; sourceTree = "<group>"; };
+		97618F432B1C393A005F0B13 /* SimplexNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplexNoise.h; sourceTree = "<group>"; };
+		97E9A9EA2B6F2314001BE0C8 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		97E9A9EE2B6F4CAA001BE0C8 /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sndfile.h; path = ../../../../../../../opt/homebrew/Cellar/libsndfile/1.2.2/include/sndfile.h; sourceTree = "<group>"; };
+		97E9A9F02B6F6747001BE0C8 /* libopenal.1.23.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenal.1.23.1.dylib; path = ../../../../../include_lib/openal/1.23.1/lib/libopenal.1.23.1.dylib; sourceTree = "<group>"; };
+		97E9A9F82B6F69E7001BE0C8 /* libopenal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenal.dylib; path = ../../../../../include_lib/openal/1.23.1/lib/libopenal.dylib; sourceTree = "<group>"; };
+		97E9A9FB2B6F6F3D001BE0C8 /* libsndfile.1.0.37.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsndfile.1.0.37.dylib; path = ../../../../../include_lib/libsndfile/1.2.2/lib/libsndfile.1.0.37.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975908642B0571320055A240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E9A9FC2B6F6F3D001BE0C8 /* libsndfile.1.0.37.dylib in Frameworks */,
+				97E9A9FA2B6F6A70001BE0C8 /* libopenal.1.23.1.dylib in Frameworks */,
+				97E9A9EB2B6F2314001BE0C8 /* OpenAL.framework in Frameworks */,
+				9759087D2B0571BF0055A240 /* libGLEW.2.2.0.dylib in Frameworks */,
+				9759087B2B0571A70055A240 /* libglfw.3.3.dylib in Frameworks */,
+				975908792B0571860055A240 /* OpenGL.framework in Frameworks */,
+				975908772B05717D0055A240 /* GLKit.framework in Frameworks */,
+				975908752B0571760055A240 /* GLUT.framework in Frameworks */,
+				975908732B05716F0055A240 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9759085E2B0571320055A240 = {
+			isa = PBXGroup;
+			children = (
+				975908692B0571320055A240 /* Zeppelin Battle Simulation */,
+				975908682B0571320055A240 /* Products */,
+				975908712B05716F0055A240 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		975908682B0571320055A240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975908672B0571320055A240 /* Zeppelin Battle Simulation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975908692B0571320055A240 /* Zeppelin Battle Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				97E9A9EE2B6F4CAA001BE0C8 /* sndfile.h */,
+				97618F422B1C393A005F0B13 /* SimplexNoise.cpp */,
+				97618F432B1C393A005F0B13 /* SimplexNoise.h */,
+				975908862B0578420055A240 /* stb_image.h */,
+				975908802B0573310055A240 /* QuadMesh.cpp */,
+				9759087E2B0573310055A240 /* QuadMesh.h */,
+				975908822B0573320055A240 /* VECTOR3D.h */,
+				975908812B0573320055A240 /* windows.h */,
+				9759087F2B0573310055A240 /* Zeppelin3D.cpp */,
+			);
+			path = "Zeppelin Battle Simulation";
+			sourceTree = "<group>";
+		};
+		975908712B05716F0055A240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E9A9FB2B6F6F3D001BE0C8 /* libsndfile.1.0.37.dylib */,
+				97E9A9F82B6F69E7001BE0C8 /* libopenal.dylib */,
+				97E9A9F02B6F6747001BE0C8 /* libopenal.1.23.1.dylib */,
+				97E9A9EA2B6F2314001BE0C8 /* OpenAL.framework */,
+				9759087C2B0571BF0055A240 /* libGLEW.2.2.0.dylib */,
+				9759087A2B0571A70055A240 /* libglfw.3.3.dylib */,
+				975908782B0571860055A240 /* OpenGL.framework */,
+				975908762B05717D0055A240 /* GLKit.framework */,
+				975908742B0571760055A240 /* GLUT.framework */,
+				975908722B05716F0055A240 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		975908662B0571320055A240 /* Zeppelin Battle Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9759086E2B0571320055A240 /* Build configuration list for PBXNativeTarget "Zeppelin Battle Simulation" */;
+			buildPhases = (
+				975908632B0571320055A240 /* Sources */,
+				975908642B0571320055A240 /* Frameworks */,
+				975908652B0571320055A240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zeppelin Battle Simulation";
+			productName = "Zeppelin Battle Simulation";
+			productReference = 975908672B0571320055A240 /* Zeppelin Battle Simulation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9759085F2B0571320055A240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					975908662B0571320055A240 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 975908622B0571320055A240 /* Build configuration list for PBXProject "Zeppelin Battle Simulation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9759085E2B0571320055A240;
+			productRefGroup = 975908682B0571320055A240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975908662B0571320055A240 /* Zeppelin Battle Simulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975908632B0571320055A240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975908832B0573320055A240 /* Zeppelin3D.cpp in Sources */,
+				97618F442B1C393A005F0B13 /* SimplexNoise.cpp in Sources */,
+				975908842B0573320055A240 /* QuadMesh.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9759086C2B0571320055A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9759086D2B0571320055A240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9759086F2B0571320055A240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Users/include_lib/glew/2.2.0_1/include,
+					/Users/include_lib/glfw/3.3.8/include,
+					"/opt/homebrew/Cellar/openal-soft/1.23.1/include/AL",
+					/opt/homebrew/Cellar/libsndfile/1.2.2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/include_lib/glfw/3.3.8/lib,
+					/Users/include_lib/glew/2.2.0_1/lib,
+					/System/Library/Frameworks/GLUT.framework,
+					/Users/include_lib/openal/1.23.1/lib/,
+					"-L/Users/include_lib/openal/1.23.1/lib",
+					/Users/include_lib/libsndfile/1.2.2/lib,
+					"-L/Users/include_lib/libsndfile/1.2.2/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lopenal",
+					"-lsndfile",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		975908702B0571320055A240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Users/include_lib/glew/2.2.0_1/include,
+					/Users/include_lib/glfw/3.3.8/include,
+					"/opt/homebrew/Cellar/openal-soft/1.23.1/include/AL",
+					/opt/homebrew/Cellar/libsndfile/1.2.2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/include_lib/glfw/3.3.8/lib,
+					/Users/include_lib/glew/2.2.0_1/lib,
+					/System/Library/Frameworks/GLUT.framework,
+					/Users/include_lib/openal/1.23.1/lib/,
+					"-L/Users/include_lib/openal/1.23.1/lib",
+					/Users/include_lib/libsndfile/1.2.2/lib,
+					"-L/Users/include_lib/libsndfile/1.2.2/lib",
+				);
+				OTHER_LDFLAGS = (
+					"-lopenal",
+					"-lsndfile",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975908622B0571320055A240 /* Build configuration list for PBXProject "Zeppelin Battle Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9759086C2B0571320055A240 /* Debug */,
+				9759086D2B0571320055A240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9759086E2B0571320055A240 /* Build configuration list for PBXNativeTarget "Zeppelin Battle Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9759086F2B0571320055A240 /* Debug */,
+				975908702B0571320055A240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9759085F2B0571320055A240 /* Project object */;
+}
