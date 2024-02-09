@@ -15,7 +15,7 @@ Set up OpenGl on Macbook. Follow guide [here](https://github.com/CoboAr/Battle-o
 <ul>
   <li>The body of all Zeppelins is texture mapped.</li>
   <li>Zeppelins are created by using glu, glut shape primitives but also with writeOBJ() and readOBJ() functions which export the current surface of revolution mesh into a 3D text file called “mesh.obj”</li>
-  <li>FPV (first person view) camera for the player zeppelin you are controlling. Whenever the "f" key is pressed, the camera view will switch between switch between the FPV camera and the normal world camera view.</li>
+  <li>FPV (first person view) camera for the player zeppelin you are controlling. Whenever the "f" key is pressed, the camera view will switch between the FPV camera and the normal world camera view.</li>
   <li>Capability of firing missiles from the zeppelins. Player zeppelin fires missiles each time the "h" key is pressed. Enemy zeppelins, fire missiles automatically whenever they are close to the player Zeppelin.</li>
   <li>Collision handling logic. When the missile hits either the player zeppelin or the enemy zeppelin, they should get destroyed and reappear on a new random position.</li>
   <li>Special effects when zeppelins are hit by a missile and get destroyed.</li>
@@ -31,6 +31,20 @@ Set up OpenGl on Macbook. Follow guide [here](https://github.com/CoboAr/Battle-o
   </ul>
   <li>Collision detection: To determine if a missile has collided with a zeppelin, a bounding box has been used to surround all zeppelins zeppelins which is also visualized. It can be hidden by commenting out the draw bounding box code sections accordingly. </li>
   <li>Music incorporated into the game. As soon as the game starts, "Worakls - By the brook" song will start playing.</li>
+</ul>
+
+## Zeppelin functionality
+These are the functionalities associated with each key press:
+<ul>
+  <li>Press "w" to make the Zeppelin move forward.</li>
+  <li>Press "s" to make the Zeppelin move backward.</li>
+  <li>Press "a" to make the Zeppelin turn to the left.</li>
+  <li>Press "d" to make the Zeppelin turn to the right.</li>
+  <li>Press "i" to make the Zeppelin move upward.</li>
+  <li>Press "k" to make the Zeppelin move downward.</li>
+  <li>Press "h" to fire missiles from the Zeppelin.</li>
+  <li>Press "f" to switch the camera between FPV (first-person camera view) and the normal world camera view.</li>
+  <li>Press "q" to stop the program and exit the game.</li>
 </ul>
 
 ## Demo
