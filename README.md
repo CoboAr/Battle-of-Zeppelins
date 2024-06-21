@@ -9,7 +9,7 @@ Watch demo [here](https://drive.google.com/file/d/1WfwtiW9E4qKwkQAC6iDxzPj_ouPKK
 
 
 ## Requirements
-Set up OpenGl on Macbook. Follow guide [here](file:///Users/arnoldcobo/Downloads/setup-guide-Macbook.pdf)
+Set up OpenGl on Macbook. Follow guide [here](https://github.com/CoboAr/Battle-of-Zeppelins/blob/main/setup-guide-Macbook.pdf)
 
 ## Game functionality
 <ul>
