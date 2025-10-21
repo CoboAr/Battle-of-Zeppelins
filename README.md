@@ -52,7 +52,5 @@ These are the functionalities associated with each key press:
 Click the link [here](https://drive.google.com/file/d/1yIeIS9aPVgDQNMAk1fDLltxBCzBFo9c0/view?usp=drive_link) to access the file on Google Drive. I uploaded the video directly to Google Drive so it can be watched. Due to its large size, direct uploading was necessary.
 
 
-Enjoy! And please do let me know if you have any comments, constructive criticism, and/or bug reports.
-## Author
-## Arnold Cobo
+
 
